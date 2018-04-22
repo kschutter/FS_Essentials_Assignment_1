@@ -1,0 +1,9 @@
+Web Development Essentials Assignment 1
+
+How do client and server communicate? Explain why DNS is required?
+	Clients, the computer or browser that needs information, will first need to find 
+	the Server Address, or IP address of that server. Because IP addresses are so numerous,
+	as well as dynamic, the DNS (domain name server) is required. The unique string representation
+	of the requested server (ie google.com) will be sent to the DNS by the client, which returns 
+	the current IP address of the target. Once the client knows the IP address, it can send requests
+	to that address, usually for the homepage. The response will typically come in the form of an html file.
